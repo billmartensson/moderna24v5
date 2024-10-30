@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E8518D3F2CD26E7700DBF0FA /* moderna24v5watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E8518D1C2CD26E7500DBF0FA /* moderna24v5watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E8518CFC2CD26D1C00DBF0FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,17 +25,95 @@
 			remoteGlobalIDString = E8518CEA2CD26D1B00DBF0FA;
 			remoteInfo = moderna24v5;
 		};
+		E8518D2C2CD26E7700DBF0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8518CE32CD26D1B00DBF0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8518D1B2CD26E7500DBF0FA;
+			remoteInfo = "moderna24v5watch Watch App";
+		};
+		E8518D362CD26E7700DBF0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8518CE32CD26D1B00DBF0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8518D1B2CD26E7500DBF0FA;
+			remoteInfo = "moderna24v5watch Watch App";
+		};
+		E8518D3D2CD26E7700DBF0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8518CE32CD26D1B00DBF0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8518D1B2CD26E7500DBF0FA;
+			remoteInfo = "moderna24v5watch Watch App";
+		};
+		E8518D5E2CD2700800DBF0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8518CE32CD26D1B00DBF0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8518D4D2CD2700600DBF0FA;
+			remoteInfo = moderna24v5tv;
+		};
+		E8518D682CD2700800DBF0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8518CE32CD26D1B00DBF0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8518D4D2CD2700600DBF0FA;
+			remoteInfo = moderna24v5tv;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8518D432CD26E7700DBF0FA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E8518D3F2CD26E7700DBF0FA /* moderna24v5watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E8518CEB2CD26D1B00DBF0FA /* moderna24v5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moderna24v5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8518CFB2CD26D1C00DBF0FA /* moderna24v5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moderna24v5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8518D052CD26D1C00DBF0FA /* moderna24v5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moderna24v5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8518D1C2CD26E7500DBF0FA /* moderna24v5watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "moderna24v5watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8518D2B2CD26E7700DBF0FA /* moderna24v5watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "moderna24v5watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8518D352CD26E7700DBF0FA /* moderna24v5watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "moderna24v5watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8518D4E2CD2700600DBF0FA /* moderna24v5tv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moderna24v5tv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8518D5D2CD2700800DBF0FA /* moderna24v5tvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moderna24v5tvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8518D672CD2700800DBF0FA /* moderna24v5tvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moderna24v5tvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E8518D7C2CD275F000DBF0FA /* Exceptions for "moderna24v5" folder in "moderna24v5watch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Fancycode.swift,
+				RedBoxView.swift,
+			);
+			target = E8518D1B2CD26E7500DBF0FA /* moderna24v5watch Watch App */;
+		};
+		E8518D7D2CD275F000DBF0FA /* Exceptions for "moderna24v5" folder in "moderna24v5tv" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Fancycode.swift,
+				RedBoxView.swift,
+			);
+			target = E8518D4D2CD2700600DBF0FA /* moderna24v5tv */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E8518CED2CD26D1B00DBF0FA /* moderna24v5 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E8518D7C2CD275F000DBF0FA /* Exceptions for "moderna24v5" folder in "moderna24v5watch Watch App" target */,
+				E8518D7D2CD275F000DBF0FA /* Exceptions for "moderna24v5" folder in "moderna24v5tv" target */,
+			);
 			path = moderna24v5;
 			sourceTree = "<group>";
 		};
@@ -43,6 +125,36 @@
 		E8518D082CD26D1C00DBF0FA /* moderna24v5UITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = moderna24v5UITests;
+			sourceTree = "<group>";
+		};
+		E8518D1D2CD26E7500DBF0FA /* moderna24v5watch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "moderna24v5watch Watch App";
+			sourceTree = "<group>";
+		};
+		E8518D2E2CD26E7700DBF0FA /* moderna24v5watch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "moderna24v5watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		E8518D382CD26E7700DBF0FA /* moderna24v5watch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "moderna24v5watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		E8518D4F2CD2700600DBF0FA /* moderna24v5tv */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = moderna24v5tv;
+			sourceTree = "<group>";
+		};
+		E8518D602CD2700800DBF0FA /* moderna24v5tvTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = moderna24v5tvTests;
+			sourceTree = "<group>";
+		};
+		E8518D6A2CD2700800DBF0FA /* moderna24v5tvUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = moderna24v5tvUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +181,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E8518D192CD26E7500DBF0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D282CD26E7700DBF0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D322CD26E7700DBF0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D4B2CD2700600DBF0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D5A2CD2700800DBF0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D642CD2700800DBF0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +232,12 @@
 				E8518CED2CD26D1B00DBF0FA /* moderna24v5 */,
 				E8518CFE2CD26D1C00DBF0FA /* moderna24v5Tests */,
 				E8518D082CD26D1C00DBF0FA /* moderna24v5UITests */,
+				E8518D1D2CD26E7500DBF0FA /* moderna24v5watch Watch App */,
+				E8518D2E2CD26E7700DBF0FA /* moderna24v5watch Watch AppTests */,
+				E8518D382CD26E7700DBF0FA /* moderna24v5watch Watch AppUITests */,
+				E8518D4F2CD2700600DBF0FA /* moderna24v5tv */,
+				E8518D602CD2700800DBF0FA /* moderna24v5tvTests */,
+				E8518D6A2CD2700800DBF0FA /* moderna24v5tvUITests */,
 				E8518CEC2CD26D1B00DBF0FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +248,12 @@
 				E8518CEB2CD26D1B00DBF0FA /* moderna24v5.app */,
 				E8518CFB2CD26D1C00DBF0FA /* moderna24v5Tests.xctest */,
 				E8518D052CD26D1C00DBF0FA /* moderna24v5UITests.xctest */,
+				E8518D1C2CD26E7500DBF0FA /* moderna24v5watch Watch App.app */,
+				E8518D2B2CD26E7700DBF0FA /* moderna24v5watch Watch AppTests.xctest */,
+				E8518D352CD26E7700DBF0FA /* moderna24v5watch Watch AppUITests.xctest */,
+				E8518D4E2CD2700600DBF0FA /* moderna24v5tv.app */,
+				E8518D5D2CD2700800DBF0FA /* moderna24v5tvTests.xctest */,
+				E8518D672CD2700800DBF0FA /* moderna24v5tvUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +268,12 @@
 				E8518CE72CD26D1B00DBF0FA /* Sources */,
 				E8518CE82CD26D1B00DBF0FA /* Frameworks */,
 				E8518CE92CD26D1B00DBF0FA /* Resources */,
+				E8518D432CD26E7700DBF0FA /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E8518D3E2CD26E7700DBF0FA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				E8518CED2CD26D1B00DBF0FA /* moderna24v5 */,
@@ -163,6 +331,142 @@
 			productReference = E8518D052CD26D1C00DBF0FA /* moderna24v5UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E8518D1B2CD26E7500DBF0FA /* moderna24v5watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8518D402CD26E7700DBF0FA /* Build configuration list for PBXNativeTarget "moderna24v5watch Watch App" */;
+			buildPhases = (
+				E8518D182CD26E7500DBF0FA /* Sources */,
+				E8518D192CD26E7500DBF0FA /* Frameworks */,
+				E8518D1A2CD26E7500DBF0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E8518D1D2CD26E7500DBF0FA /* moderna24v5watch Watch App */,
+			);
+			name = "moderna24v5watch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "moderna24v5watch Watch App";
+			productReference = E8518D1C2CD26E7500DBF0FA /* moderna24v5watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8518D2A2CD26E7700DBF0FA /* moderna24v5watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8518D442CD26E7700DBF0FA /* Build configuration list for PBXNativeTarget "moderna24v5watch Watch AppTests" */;
+			buildPhases = (
+				E8518D272CD26E7700DBF0FA /* Sources */,
+				E8518D282CD26E7700DBF0FA /* Frameworks */,
+				E8518D292CD26E7700DBF0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8518D2D2CD26E7700DBF0FA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E8518D2E2CD26E7700DBF0FA /* moderna24v5watch Watch AppTests */,
+			);
+			name = "moderna24v5watch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "moderna24v5watch Watch AppTests";
+			productReference = E8518D2B2CD26E7700DBF0FA /* moderna24v5watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8518D342CD26E7700DBF0FA /* moderna24v5watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8518D472CD26E7700DBF0FA /* Build configuration list for PBXNativeTarget "moderna24v5watch Watch AppUITests" */;
+			buildPhases = (
+				E8518D312CD26E7700DBF0FA /* Sources */,
+				E8518D322CD26E7700DBF0FA /* Frameworks */,
+				E8518D332CD26E7700DBF0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8518D372CD26E7700DBF0FA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E8518D382CD26E7700DBF0FA /* moderna24v5watch Watch AppUITests */,
+			);
+			name = "moderna24v5watch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "moderna24v5watch Watch AppUITests";
+			productReference = E8518D352CD26E7700DBF0FA /* moderna24v5watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E8518D4D2CD2700600DBF0FA /* moderna24v5tv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8518D6F2CD2700800DBF0FA /* Build configuration list for PBXNativeTarget "moderna24v5tv" */;
+			buildPhases = (
+				E8518D4A2CD2700600DBF0FA /* Sources */,
+				E8518D4B2CD2700600DBF0FA /* Frameworks */,
+				E8518D4C2CD2700600DBF0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E8518D4F2CD2700600DBF0FA /* moderna24v5tv */,
+			);
+			name = moderna24v5tv;
+			packageProductDependencies = (
+			);
+			productName = moderna24v5tv;
+			productReference = E8518D4E2CD2700600DBF0FA /* moderna24v5tv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8518D5C2CD2700800DBF0FA /* moderna24v5tvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8518D722CD2700800DBF0FA /* Build configuration list for PBXNativeTarget "moderna24v5tvTests" */;
+			buildPhases = (
+				E8518D592CD2700800DBF0FA /* Sources */,
+				E8518D5A2CD2700800DBF0FA /* Frameworks */,
+				E8518D5B2CD2700800DBF0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8518D5F2CD2700800DBF0FA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E8518D602CD2700800DBF0FA /* moderna24v5tvTests */,
+			);
+			name = moderna24v5tvTests;
+			packageProductDependencies = (
+			);
+			productName = moderna24v5tvTests;
+			productReference = E8518D5D2CD2700800DBF0FA /* moderna24v5tvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8518D662CD2700800DBF0FA /* moderna24v5tvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8518D752CD2700800DBF0FA /* Build configuration list for PBXNativeTarget "moderna24v5tvUITests" */;
+			buildPhases = (
+				E8518D632CD2700800DBF0FA /* Sources */,
+				E8518D642CD2700800DBF0FA /* Frameworks */,
+				E8518D652CD2700800DBF0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8518D692CD2700800DBF0FA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E8518D6A2CD2700800DBF0FA /* moderna24v5tvUITests */,
+			);
+			name = moderna24v5tvUITests;
+			packageProductDependencies = (
+			);
+			productName = moderna24v5tvUITests;
+			productReference = E8518D672CD2700800DBF0FA /* moderna24v5tvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +488,28 @@
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = E8518CEA2CD26D1B00DBF0FA;
 					};
+					E8518D1B2CD26E7500DBF0FA = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E8518D2A2CD26E7700DBF0FA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E8518D1B2CD26E7500DBF0FA;
+					};
+					E8518D342CD26E7700DBF0FA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E8518D1B2CD26E7500DBF0FA;
+					};
+					E8518D4D2CD2700600DBF0FA = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E8518D5C2CD2700800DBF0FA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E8518D4D2CD2700600DBF0FA;
+					};
+					E8518D662CD2700800DBF0FA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E8518D4D2CD2700600DBF0FA;
+					};
 				};
 			};
 			buildConfigurationList = E8518CE62CD26D1B00DBF0FA /* Build configuration list for PBXProject "moderna24v5" */;
@@ -203,6 +529,12 @@
 				E8518CEA2CD26D1B00DBF0FA /* moderna24v5 */,
 				E8518CFA2CD26D1C00DBF0FA /* moderna24v5Tests */,
 				E8518D042CD26D1C00DBF0FA /* moderna24v5UITests */,
+				E8518D1B2CD26E7500DBF0FA /* moderna24v5watch Watch App */,
+				E8518D2A2CD26E7700DBF0FA /* moderna24v5watch Watch AppTests */,
+				E8518D342CD26E7700DBF0FA /* moderna24v5watch Watch AppUITests */,
+				E8518D4D2CD2700600DBF0FA /* moderna24v5tv */,
+				E8518D5C2CD2700800DBF0FA /* moderna24v5tvTests */,
+				E8518D662CD2700800DBF0FA /* moderna24v5tvUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +555,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E8518D032CD26D1C00DBF0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D1A2CD26E7500DBF0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D292CD26E7700DBF0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D332CD26E7700DBF0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D4C2CD2700600DBF0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D5B2CD2700800DBF0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D652CD2700800DBF0FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +627,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E8518D182CD26E7500DBF0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D272CD26E7700DBF0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D312CD26E7700DBF0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D4A2CD2700600DBF0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D592CD2700800DBF0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8518D632CD2700800DBF0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +681,31 @@
 			isa = PBXTargetDependency;
 			target = E8518CEA2CD26D1B00DBF0FA /* moderna24v5 */;
 			targetProxy = E8518D062CD26D1C00DBF0FA /* PBXContainerItemProxy */;
+		};
+		E8518D2D2CD26E7700DBF0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8518D1B2CD26E7500DBF0FA /* moderna24v5watch Watch App */;
+			targetProxy = E8518D2C2CD26E7700DBF0FA /* PBXContainerItemProxy */;
+		};
+		E8518D372CD26E7700DBF0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8518D1B2CD26E7500DBF0FA /* moderna24v5watch Watch App */;
+			targetProxy = E8518D362CD26E7700DBF0FA /* PBXContainerItemProxy */;
+		};
+		E8518D3E2CD26E7700DBF0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8518D1B2CD26E7500DBF0FA /* moderna24v5watch Watch App */;
+			targetProxy = E8518D3D2CD26E7700DBF0FA /* PBXContainerItemProxy */;
+		};
+		E8518D5F2CD2700800DBF0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8518D4D2CD2700600DBF0FA /* moderna24v5tv */;
+			targetProxy = E8518D5E2CD2700800DBF0FA /* PBXContainerItemProxy */;
+		};
+		E8518D692CD2700800DBF0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8518D4D2CD2700600DBF0FA /* moderna24v5tv */;
+			targetProxy = E8518D682CD2700800DBF0FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -518,6 +959,278 @@
 			};
 			name = Release;
 		};
+		E8518D412CD26E7700DBF0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"moderna24v5watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = moderna24v5watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = se.magictechnology.moderna24v5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.moderna24v5.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		E8518D422CD26E7700DBF0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"moderna24v5watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = moderna24v5watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = se.magictechnology.moderna24v5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.moderna24v5.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		E8518D452CD26E7700DBF0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.magictechnology.moderna24v5watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moderna24v5watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/moderna24v5watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		E8518D462CD26E7700DBF0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.magictechnology.moderna24v5watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moderna24v5watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/moderna24v5watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		E8518D482CD26E7700DBF0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.magictechnology.moderna24v5watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "moderna24v5watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		E8518D492CD26E7700DBF0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.magictechnology.moderna24v5watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "moderna24v5watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		E8518D702CD2700800DBF0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"moderna24v5tv/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.moderna24v5tv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Debug;
+		};
+		E8518D712CD2700800DBF0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"moderna24v5tv/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.moderna24v5tv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Release;
+		};
+		E8518D732CD2700800DBF0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.moderna24v5tvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moderna24v5tv.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/moderna24v5tv";
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Debug;
+		};
+		E8518D742CD2700800DBF0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.moderna24v5tvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moderna24v5tv.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/moderna24v5tv";
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Release;
+		};
+		E8518D762CD2700800DBF0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.moderna24v5tvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = moderna24v5tv;
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Debug;
+		};
+		E8518D772CD2700800DBF0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.moderna24v5tvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = moderna24v5tv;
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,6 +1266,60 @@
 			buildConfigurations = (
 				E8518D162CD26D1C00DBF0FA /* Debug */,
 				E8518D172CD26D1C00DBF0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8518D402CD26E7700DBF0FA /* Build configuration list for PBXNativeTarget "moderna24v5watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8518D412CD26E7700DBF0FA /* Debug */,
+				E8518D422CD26E7700DBF0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8518D442CD26E7700DBF0FA /* Build configuration list for PBXNativeTarget "moderna24v5watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8518D452CD26E7700DBF0FA /* Debug */,
+				E8518D462CD26E7700DBF0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8518D472CD26E7700DBF0FA /* Build configuration list for PBXNativeTarget "moderna24v5watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8518D482CD26E7700DBF0FA /* Debug */,
+				E8518D492CD26E7700DBF0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8518D6F2CD2700800DBF0FA /* Build configuration list for PBXNativeTarget "moderna24v5tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8518D702CD2700800DBF0FA /* Debug */,
+				E8518D712CD2700800DBF0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8518D722CD2700800DBF0FA /* Build configuration list for PBXNativeTarget "moderna24v5tvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8518D732CD2700800DBF0FA /* Debug */,
+				E8518D742CD2700800DBF0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8518D752CD2700800DBF0FA /* Build configuration list for PBXNativeTarget "moderna24v5tvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8518D762CD2700800DBF0FA /* Debug */,
+				E8518D772CD2700800DBF0FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
